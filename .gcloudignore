@@ -1,0 +1,17 @@
+.gcloudignore
+.git/
+.venv/
+.pytest_cache/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.log
+.env
+.env.*
+tests/
+data/
+scripts/
+README.md
+*_backup.py
+*_before_*.py

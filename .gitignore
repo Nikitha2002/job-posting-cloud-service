@@ -1,0 +1,40 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*service-account*.json
+
+# Local databases and logs
+*.db
+*.sqlite3
+*.log
+
+# Temporary and backup files
+*_before_*.py
+*.bak
+*.tmp
+.DS_Store
+
+# Generated benchmark datasets
+data/performance/jobs_*.csv
+
+# Local test outputs
+tests/test_results.txt
+
+# Additional development backups
+*_backup.py

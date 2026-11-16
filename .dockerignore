@@ -1,0 +1,16 @@
+.venv/
+.git/
+.gitignore
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.env
+.env.*
+tests/
+data/
+scripts/
+*_backup.py
+*_before_*.py
+README.md
